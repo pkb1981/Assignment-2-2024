@@ -49,8 +49,21 @@
   justify-content: center;
   align-items: center;
 }
+
 /* <!-- hamburger menu for mobile device --> */
 .ham-burger {
   display: none;
   color: white;
+}
+
+/* Responsive layout for mobile devices */
+
+@media screen and (max-width:576px) {
+  .menus {
+    display: none;
+  }
+
+  .ham-burger {
+    display: block;
+  }
 }
