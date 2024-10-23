@@ -399,9 +399,28 @@ thead {
   }
 
   .calculator-bmi {
+    display: flex;
     flex-direction: column;
     background-color: rgb(86, 82, 82);
     row-gap: 20px;
+  }
+
+  .bmi-calculation-field {
+    display: grid;
+  }
+
+  .field-row {
+    height: 34px;
+    width: 140px;
+  }
+
+  #activity-factor {
+    width: 295px;
+  }
+
+  .bmi-calculation {
+    max-width: 100%;
+    padding-left: 100px;
   }
 
   .bmi-calculation>h4,
@@ -409,9 +428,5 @@ thead {
     font-size: 15px;
   }
 
-  .row-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
 }
